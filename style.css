@@ -1,0 +1,41 @@
+.background-image {
+    background-image: url('images/bg.png'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: calc(100vh - 60px); 
+}
+.circle-graph {
+  position: relative;
+  width: 80px; /* Smaller size */
+  height: 80px; /* Smaller size */
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 10px auto 20px; /* Center the circle graph and add margin below */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-email {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#3498db 0% 33.33%, #2ecc71 33.33% 66.66%, #e74c3c 66.66% 100%);
+}
+
+.statistics {
+  margin-top: 20px;
+}
+
+.statistics li {
+  list-style: none;
+}
+
+.statistics li span {
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+}
